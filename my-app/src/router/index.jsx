@@ -1,7 +1,7 @@
 import Registrationform from "../pages/registrationform";
 import Login from "../pages/loginform";
 import Loginform from "../pages/loginform";
-import UsersList from "../pages/userslist";
+import UsersList from "../pages/userlist";
 
 export const RouterNames = {
   HOME: '/',

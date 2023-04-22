@@ -155,7 +155,7 @@ const RegisterUser = () => {
               <option value="UI/UX Design">UI/UX Design</option>
             </select>
           </label>
-          {errorData.specialiist ? <p>{errorData.specialiist}</p> : null}
+          {errorData.specialist ? <p>{errorData.specialist}</p> : null}
 
         </div>
         <div className={`P-radioClass`}>

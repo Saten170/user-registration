@@ -31,8 +31,6 @@ const Login = () => {
       setErrorText("Invalid email or password");
     }
 
-    // set user data in local storage
-
 
   };
 

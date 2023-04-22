@@ -2,10 +2,10 @@ import React, {useEffect, useState} from 'react';
 import {Routes, Route, Navigate, NavLink, useNavigate} from 'react-router-dom'
 
 import RegisterUser from './pages/registrationform';
-import UsersList from './pages/userslist';
+import UsersList from './pages/userlist';
 import Login from './pages/loginform';
 import {RouterNames} from "./router";
-import UserDetails from "./pages/user-details";
+import UserDetails from "./pages/userdetalis";
 
 function App() {
   const [token, setToken] = useState('')

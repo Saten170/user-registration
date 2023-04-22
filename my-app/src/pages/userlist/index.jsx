@@ -7,7 +7,7 @@ const UsersList = () => {
   const [userToDelete, setUserToDelete] = useState(null);
 
   useEffect(() => {
-    const users = JSON.parse(localStorage.getItem());
+    const users = JSON.parse(localStorage.getItem('users-list'));
     if (users && users.length) {
       setUsersList(users);
     }
